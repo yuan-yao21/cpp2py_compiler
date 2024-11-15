@@ -1,0 +1,1361 @@
+type: translationUnit
+children:
+- type: declarationseq
+  children:
+  - type: declaration
+    children:
+    - type: functionDefinition
+      children:
+      - type: declSpecifierSeq
+        children:
+        - type: declSpecifier
+          children:
+          - type: typeSpecifier
+            children:
+            - type: trailingTypeSpecifier
+              children:
+              - type: simpleTypeSpecifier
+                children:
+                - bool
+      - type: declarator
+        children:
+        - type: pointerDeclarator
+          children:
+          - type: noPointerDeclarator
+            children:
+            - type: noPointerDeclarator
+              children:
+              - type: declaratorid
+                children:
+                - type: idExpression
+                  children:
+                  - type: unqualifiedId
+                    children:
+                    - isPalindrome
+            - type: parametersAndQualifiers
+              children:
+              - (
+              - type: parameterDeclarationClause
+                children:
+                - type: parameterDeclarationList
+                  children:
+                  - type: parameterDeclaration
+                    children:
+                    - type: declSpecifierSeq
+                      children:
+                      - type: declSpecifier
+                        children:
+                        - type: typeSpecifier
+                          children:
+                          - type: trailingTypeSpecifier
+                            children:
+                            - type: cvQualifier
+                              children:
+                              - const
+                      - type: declSpecifier
+                        children:
+                        - type: typeSpecifier
+                          children:
+                          - type: trailingTypeSpecifier
+                            children:
+                            - type: simpleTypeSpecifier
+                              children:
+                              - type: nestedNameSpecifier
+                                children:
+                                - type: theTypeName
+                                  children:
+                                  - type: className
+                                    children:
+                                    - std
+                                - '::'
+                              - type: theTypeName
+                                children:
+                                - type: className
+                                  children:
+                                  - string
+                    - type: declarator
+                      children:
+                      - type: pointerDeclarator
+                        children:
+                        - type: pointerOperator
+                          children:
+                          - '&'
+                        - type: noPointerDeclarator
+                          children:
+                          - type: declaratorid
+                            children:
+                            - type: idExpression
+                              children:
+                              - type: unqualifiedId
+                                children:
+                                - s
+              - )
+      - type: functionBody
+        children:
+        - type: compoundStatement
+          children:
+          - '{'
+          - type: statementSeq
+            children:
+            - type: statement
+              children:
+              - type: declarationStatement
+                children:
+                - type: blockDeclaration
+                  children:
+                  - type: simpleDeclaration
+                    children:
+                    - type: declSpecifierSeq
+                      children:
+                      - type: declSpecifier
+                        children:
+                        - type: typeSpecifier
+                          children:
+                          - type: trailingTypeSpecifier
+                            children:
+                            - type: simpleTypeSpecifier
+                              children:
+                              - int
+                    - type: initDeclaratorList
+                      children:
+                      - type: initDeclarator
+                        children:
+                        - type: declarator
+                          children:
+                          - type: pointerDeclarator
+                            children:
+                            - type: noPointerDeclarator
+                              children:
+                              - type: declaratorid
+                                children:
+                                - type: idExpression
+                                  children:
+                                  - type: unqualifiedId
+                                    children:
+                                    - left
+                        - type: initializer
+                          children:
+                          - type: braceOrEqualInitializer
+                            children:
+                            - '='
+                            - type: initializerClause
+                              children:
+                              - type: assignmentExpression
+                                children:
+                                - type: conditionalExpression
+                                  children:
+                                  - type: logicalOrExpression
+                                    children:
+                                    - type: logicalAndExpression
+                                      children:
+                                      - type: inclusiveOrExpression
+                                        children:
+                                        - type: exclusiveOrExpression
+                                          children:
+                                          - type: andExpression
+                                            children:
+                                            - type: equalityExpression
+                                              children:
+                                              - type: relationalExpression
+                                                children:
+                                                - type: shiftExpression
+                                                  children:
+                                                  - type: additiveExpression
+                                                    children:
+                                                    - type: multiplicativeExpression
+                                                      children:
+                                                      - type: pointerMemberExpression
+                                                        children:
+                                                        - type: castExpression
+                                                          children:
+                                                          - type: unaryExpression
+                                                            children:
+                                                            - type: postfixExpression
+                                                              children:
+                                                              - type: primaryExpression
+                                                                children:
+                                                                - type: literal
+                                                                  children:
+                                                                  - '0'
+                    - ;
+            - type: statement
+              children:
+              - type: declarationStatement
+                children:
+                - type: blockDeclaration
+                  children:
+                  - type: simpleDeclaration
+                    children:
+                    - type: declSpecifierSeq
+                      children:
+                      - type: declSpecifier
+                        children:
+                        - type: typeSpecifier
+                          children:
+                          - type: trailingTypeSpecifier
+                            children:
+                            - type: simpleTypeSpecifier
+                              children:
+                              - int
+                    - type: initDeclaratorList
+                      children:
+                      - type: initDeclarator
+                        children:
+                        - type: declarator
+                          children:
+                          - type: pointerDeclarator
+                            children:
+                            - type: noPointerDeclarator
+                              children:
+                              - type: declaratorid
+                                children:
+                                - type: idExpression
+                                  children:
+                                  - type: unqualifiedId
+                                    children:
+                                    - right
+                        - type: initializer
+                          children:
+                          - type: braceOrEqualInitializer
+                            children:
+                            - '='
+                            - type: initializerClause
+                              children:
+                              - type: assignmentExpression
+                                children:
+                                - type: conditionalExpression
+                                  children:
+                                  - type: logicalOrExpression
+                                    children:
+                                    - type: logicalAndExpression
+                                      children:
+                                      - type: inclusiveOrExpression
+                                        children:
+                                        - type: exclusiveOrExpression
+                                          children:
+                                          - type: andExpression
+                                            children:
+                                            - type: equalityExpression
+                                              children:
+                                              - type: relationalExpression
+                                                children:
+                                                - type: shiftExpression
+                                                  children:
+                                                  - type: additiveExpression
+                                                    children:
+                                                    - type: multiplicativeExpression
+                                                      children:
+                                                      - type: pointerMemberExpression
+                                                        children:
+                                                        - type: castExpression
+                                                          children:
+                                                          - type: unaryExpression
+                                                            children:
+                                                            - type: postfixExpression
+                                                              children:
+                                                              - type: postfixExpression
+                                                                children:
+                                                                - type: postfixExpression
+                                                                  children:
+                                                                  - type: primaryExpression
+                                                                    children:
+                                                                    - type: idExpression
+                                                                      children:
+                                                                      - type: unqualifiedId
+                                                                        children:
+                                                                        - s
+                                                                - .
+                                                                - type: idExpression
+                                                                  children:
+                                                                  - type: unqualifiedId
+                                                                    children:
+                                                                    - size
+                                                              - (
+                                                              - )
+                                                    - '-'
+                                                    - type: multiplicativeExpression
+                                                      children:
+                                                      - type: pointerMemberExpression
+                                                        children:
+                                                        - type: castExpression
+                                                          children:
+                                                          - type: unaryExpression
+                                                            children:
+                                                            - type: postfixExpression
+                                                              children:
+                                                              - type: primaryExpression
+                                                                children:
+                                                                - type: literal
+                                                                  children:
+                                                                  - '1'
+                    - ;
+            - type: statement
+              children:
+              - type: iterationStatement
+                children:
+                - while
+                - (
+                - type: condition
+                  children:
+                  - type: expression
+                    children:
+                    - type: assignmentExpression
+                      children:
+                      - type: conditionalExpression
+                        children:
+                        - type: logicalOrExpression
+                          children:
+                          - type: logicalAndExpression
+                            children:
+                            - type: inclusiveOrExpression
+                              children:
+                              - type: exclusiveOrExpression
+                                children:
+                                - type: andExpression
+                                  children:
+                                  - type: equalityExpression
+                                    children:
+                                    - type: relationalExpression
+                                      children:
+                                      - type: shiftExpression
+                                        children:
+                                        - type: additiveExpression
+                                          children:
+                                          - type: multiplicativeExpression
+                                            children:
+                                            - type: pointerMemberExpression
+                                              children:
+                                              - type: castExpression
+                                                children:
+                                                - type: unaryExpression
+                                                  children:
+                                                  - type: postfixExpression
+                                                    children:
+                                                    - type: primaryExpression
+                                                      children:
+                                                      - type: idExpression
+                                                        children:
+                                                        - type: unqualifiedId
+                                                          children:
+                                                          - left
+                                      - <
+                                      - type: shiftExpression
+                                        children:
+                                        - type: additiveExpression
+                                          children:
+                                          - type: multiplicativeExpression
+                                            children:
+                                            - type: pointerMemberExpression
+                                              children:
+                                              - type: castExpression
+                                                children:
+                                                - type: unaryExpression
+                                                  children:
+                                                  - type: postfixExpression
+                                                    children:
+                                                    - type: primaryExpression
+                                                      children:
+                                                      - type: idExpression
+                                                        children:
+                                                        - type: unqualifiedId
+                                                          children:
+                                                          - right
+                - )
+                - type: statement
+                  children:
+                  - type: compoundStatement
+                    children:
+                    - '{'
+                    - type: statementSeq
+                      children:
+                      - type: statement
+                        children:
+                        - type: selectionStatement
+                          children:
+                          - if
+                          - (
+                          - type: condition
+                            children:
+                            - type: expression
+                              children:
+                              - type: assignmentExpression
+                                children:
+                                - type: conditionalExpression
+                                  children:
+                                  - type: logicalOrExpression
+                                    children:
+                                    - type: logicalAndExpression
+                                      children:
+                                      - type: inclusiveOrExpression
+                                        children:
+                                        - type: exclusiveOrExpression
+                                          children:
+                                          - type: andExpression
+                                            children:
+                                            - type: equalityExpression
+                                              children:
+                                              - type: relationalExpression
+                                                children:
+                                                - type: shiftExpression
+                                                  children:
+                                                  - type: additiveExpression
+                                                    children:
+                                                    - type: multiplicativeExpression
+                                                      children:
+                                                      - type: pointerMemberExpression
+                                                        children:
+                                                        - type: castExpression
+                                                          children:
+                                                          - type: unaryExpression
+                                                            children:
+                                                            - type: postfixExpression
+                                                              children:
+                                                              - type: postfixExpression
+                                                                children:
+                                                                - type: primaryExpression
+                                                                  children:
+                                                                  - type: idExpression
+                                                                    children:
+                                                                    - type: unqualifiedId
+                                                                      children:
+                                                                      - s
+                                                              - '['
+                                                              - type: expression
+                                                                children:
+                                                                - type: assignmentExpression
+                                                                  children:
+                                                                  - type: conditionalExpression
+                                                                    children:
+                                                                    - type: logicalOrExpression
+                                                                      children:
+                                                                      - type: logicalAndExpression
+                                                                        children:
+                                                                        - type: inclusiveOrExpression
+                                                                          children:
+                                                                          - type: exclusiveOrExpression
+                                                                            children:
+                                                                            - type: andExpression
+                                                                              children:
+                                                                              - type: equalityExpression
+                                                                                children:
+                                                                                - type: relationalExpression
+                                                                                  children:
+                                                                                  - type: shiftExpression
+                                                                                    children:
+                                                                                    - type: additiveExpression
+                                                                                      children:
+                                                                                      - type: multiplicativeExpression
+                                                                                        children:
+                                                                                        - type: pointerMemberExpression
+                                                                                          children:
+                                                                                          - type: castExpression
+                                                                                            children:
+                                                                                            - type: unaryExpression
+                                                                                              children:
+                                                                                              - type: postfixExpression
+                                                                                                children:
+                                                                                                - type: primaryExpression
+                                                                                                  children:
+                                                                                                  - type: idExpression
+                                                                                                    children:
+                                                                                                    - type: unqualifiedId
+                                                                                                      children:
+                                                                                                      - left
+                                                              - ']'
+                                              - '!='
+                                              - type: relationalExpression
+                                                children:
+                                                - type: shiftExpression
+                                                  children:
+                                                  - type: additiveExpression
+                                                    children:
+                                                    - type: multiplicativeExpression
+                                                      children:
+                                                      - type: pointerMemberExpression
+                                                        children:
+                                                        - type: castExpression
+                                                          children:
+                                                          - type: unaryExpression
+                                                            children:
+                                                            - type: postfixExpression
+                                                              children:
+                                                              - type: postfixExpression
+                                                                children:
+                                                                - type: primaryExpression
+                                                                  children:
+                                                                  - type: idExpression
+                                                                    children:
+                                                                    - type: unqualifiedId
+                                                                      children:
+                                                                      - s
+                                                              - '['
+                                                              - type: expression
+                                                                children:
+                                                                - type: assignmentExpression
+                                                                  children:
+                                                                  - type: conditionalExpression
+                                                                    children:
+                                                                    - type: logicalOrExpression
+                                                                      children:
+                                                                      - type: logicalAndExpression
+                                                                        children:
+                                                                        - type: inclusiveOrExpression
+                                                                          children:
+                                                                          - type: exclusiveOrExpression
+                                                                            children:
+                                                                            - type: andExpression
+                                                                              children:
+                                                                              - type: equalityExpression
+                                                                                children:
+                                                                                - type: relationalExpression
+                                                                                  children:
+                                                                                  - type: shiftExpression
+                                                                                    children:
+                                                                                    - type: additiveExpression
+                                                                                      children:
+                                                                                      - type: multiplicativeExpression
+                                                                                        children:
+                                                                                        - type: pointerMemberExpression
+                                                                                          children:
+                                                                                          - type: castExpression
+                                                                                            children:
+                                                                                            - type: unaryExpression
+                                                                                              children:
+                                                                                              - type: postfixExpression
+                                                                                                children:
+                                                                                                - type: primaryExpression
+                                                                                                  children:
+                                                                                                  - type: idExpression
+                                                                                                    children:
+                                                                                                    - type: unqualifiedId
+                                                                                                      children:
+                                                                                                      - right
+                                                              - ']'
+                          - )
+                          - type: statement
+                            children:
+                            - type: compoundStatement
+                              children:
+                              - '{'
+                              - type: statementSeq
+                                children:
+                                - type: statement
+                                  children:
+                                  - type: jumpStatement
+                                    children:
+                                    - return
+                                    - type: expression
+                                      children:
+                                      - type: assignmentExpression
+                                        children:
+                                        - type: conditionalExpression
+                                          children:
+                                          - type: logicalOrExpression
+                                            children:
+                                            - type: logicalAndExpression
+                                              children:
+                                              - type: inclusiveOrExpression
+                                                children:
+                                                - type: exclusiveOrExpression
+                                                  children:
+                                                  - type: andExpression
+                                                    children:
+                                                    - type: equalityExpression
+                                                      children:
+                                                      - type: relationalExpression
+                                                        children:
+                                                        - type: shiftExpression
+                                                          children:
+                                                          - type: additiveExpression
+                                                            children:
+                                                            - type: multiplicativeExpression
+                                                              children:
+                                                              - type: pointerMemberExpression
+                                                                children:
+                                                                - type: castExpression
+                                                                  children:
+                                                                  - type: unaryExpression
+                                                                    children:
+                                                                    - type: postfixExpression
+                                                                      children:
+                                                                      - type: primaryExpression
+                                                                        children:
+                                                                        - type: literal
+                                                                          children:
+                                                                          - 'false'
+                                    - ;
+                              - '}'
+                      - type: statement
+                        children:
+                        - type: expressionStatement
+                          children:
+                          - type: expression
+                            children:
+                            - type: assignmentExpression
+                              children:
+                              - type: conditionalExpression
+                                children:
+                                - type: logicalOrExpression
+                                  children:
+                                  - type: logicalAndExpression
+                                    children:
+                                    - type: inclusiveOrExpression
+                                      children:
+                                      - type: exclusiveOrExpression
+                                        children:
+                                        - type: andExpression
+                                          children:
+                                          - type: equalityExpression
+                                            children:
+                                            - type: relationalExpression
+                                              children:
+                                              - type: shiftExpression
+                                                children:
+                                                - type: additiveExpression
+                                                  children:
+                                                  - type: multiplicativeExpression
+                                                    children:
+                                                    - type: pointerMemberExpression
+                                                      children:
+                                                      - type: castExpression
+                                                        children:
+                                                        - type: unaryExpression
+                                                          children:
+                                                          - type: postfixExpression
+                                                            children:
+                                                            - type: postfixExpression
+                                                              children:
+                                                              - type: primaryExpression
+                                                                children:
+                                                                - type: idExpression
+                                                                  children:
+                                                                  - type: unqualifiedId
+                                                                    children:
+                                                                    - left
+                                                            - ++
+                          - ;
+                      - type: statement
+                        children:
+                        - type: expressionStatement
+                          children:
+                          - type: expression
+                            children:
+                            - type: assignmentExpression
+                              children:
+                              - type: conditionalExpression
+                                children:
+                                - type: logicalOrExpression
+                                  children:
+                                  - type: logicalAndExpression
+                                    children:
+                                    - type: inclusiveOrExpression
+                                      children:
+                                      - type: exclusiveOrExpression
+                                        children:
+                                        - type: andExpression
+                                          children:
+                                          - type: equalityExpression
+                                            children:
+                                            - type: relationalExpression
+                                              children:
+                                              - type: shiftExpression
+                                                children:
+                                                - type: additiveExpression
+                                                  children:
+                                                  - type: multiplicativeExpression
+                                                    children:
+                                                    - type: pointerMemberExpression
+                                                      children:
+                                                      - type: castExpression
+                                                        children:
+                                                        - type: unaryExpression
+                                                          children:
+                                                          - type: postfixExpression
+                                                            children:
+                                                            - type: postfixExpression
+                                                              children:
+                                                              - type: primaryExpression
+                                                                children:
+                                                                - type: idExpression
+                                                                  children:
+                                                                  - type: unqualifiedId
+                                                                    children:
+                                                                    - right
+                                                            - --
+                          - ;
+                    - '}'
+            - type: statement
+              children:
+              - type: jumpStatement
+                children:
+                - return
+                - type: expression
+                  children:
+                  - type: assignmentExpression
+                    children:
+                    - type: conditionalExpression
+                      children:
+                      - type: logicalOrExpression
+                        children:
+                        - type: logicalAndExpression
+                          children:
+                          - type: inclusiveOrExpression
+                            children:
+                            - type: exclusiveOrExpression
+                              children:
+                              - type: andExpression
+                                children:
+                                - type: equalityExpression
+                                  children:
+                                  - type: relationalExpression
+                                    children:
+                                    - type: shiftExpression
+                                      children:
+                                      - type: additiveExpression
+                                        children:
+                                        - type: multiplicativeExpression
+                                          children:
+                                          - type: pointerMemberExpression
+                                            children:
+                                            - type: castExpression
+                                              children:
+                                              - type: unaryExpression
+                                                children:
+                                                - type: postfixExpression
+                                                  children:
+                                                  - type: primaryExpression
+                                                    children:
+                                                    - type: literal
+                                                      children:
+                                                      - 'true'
+                - ;
+          - '}'
+  - type: declaration
+    children:
+    - type: functionDefinition
+      children:
+      - type: declSpecifierSeq
+        children:
+        - type: declSpecifier
+          children:
+          - type: typeSpecifier
+            children:
+            - type: trailingTypeSpecifier
+              children:
+              - type: simpleTypeSpecifier
+                children:
+                - int
+      - type: declarator
+        children:
+        - type: pointerDeclarator
+          children:
+          - type: noPointerDeclarator
+            children:
+            - type: noPointerDeclarator
+              children:
+              - type: declaratorid
+                children:
+                - type: idExpression
+                  children:
+                  - type: unqualifiedId
+                    children:
+                    - main
+            - type: parametersAndQualifiers
+              children:
+              - (
+              - )
+      - type: functionBody
+        children:
+        - type: compoundStatement
+          children:
+          - '{'
+          - type: statementSeq
+            children:
+            - type: statement
+              children:
+              - type: declarationStatement
+                children:
+                - type: blockDeclaration
+                  children:
+                  - type: simpleDeclaration
+                    children:
+                    - type: declSpecifierSeq
+                      children:
+                      - type: declSpecifier
+                        children:
+                        - type: typeSpecifier
+                          children:
+                          - type: trailingTypeSpecifier
+                            children:
+                            - type: simpleTypeSpecifier
+                              children:
+                              - type: nestedNameSpecifier
+                                children:
+                                - type: theTypeName
+                                  children:
+                                  - type: className
+                                    children:
+                                    - std
+                                - '::'
+                              - type: theTypeName
+                                children:
+                                - type: className
+                                  children:
+                                  - string
+                    - type: initDeclaratorList
+                      children:
+                      - type: initDeclarator
+                        children:
+                        - type: declarator
+                          children:
+                          - type: pointerDeclarator
+                            children:
+                            - type: noPointerDeclarator
+                              children:
+                              - type: declaratorid
+                                children:
+                                - type: idExpression
+                                  children:
+                                  - type: unqualifiedId
+                                    children:
+                                    - s
+                    - ;
+            - type: statement
+              children:
+              - type: expressionStatement
+                children:
+                - type: expression
+                  children:
+                  - type: assignmentExpression
+                    children:
+                    - type: conditionalExpression
+                      children:
+                      - type: logicalOrExpression
+                        children:
+                        - type: logicalAndExpression
+                          children:
+                          - type: inclusiveOrExpression
+                            children:
+                            - type: exclusiveOrExpression
+                              children:
+                              - type: andExpression
+                                children:
+                                - type: equalityExpression
+                                  children:
+                                  - type: relationalExpression
+                                    children:
+                                    - type: shiftExpression
+                                      children:
+                                      - type: additiveExpression
+                                        children:
+                                        - type: multiplicativeExpression
+                                          children:
+                                          - type: pointerMemberExpression
+                                            children:
+                                            - type: castExpression
+                                              children:
+                                              - type: unaryExpression
+                                                children:
+                                                - type: postfixExpression
+                                                  children:
+                                                  - type: primaryExpression
+                                                    children:
+                                                    - type: idExpression
+                                                      children:
+                                                      - type: qualifiedId
+                                                        children:
+                                                        - type: nestedNameSpecifier
+                                                          children:
+                                                          - type: theTypeName
+                                                            children:
+                                                            - type: className
+                                                              children:
+                                                              - std
+                                                          - '::'
+                                                        - type: unqualifiedId
+                                                          children:
+                                                          - cout
+                                      - type: shiftOperator
+                                        children:
+                                        - <
+                                        - <
+                                      - type: additiveExpression
+                                        children:
+                                        - type: multiplicativeExpression
+                                          children:
+                                          - type: pointerMemberExpression
+                                            children:
+                                            - type: castExpression
+                                              children:
+                                              - type: unaryExpression
+                                                children:
+                                                - type: postfixExpression
+                                                  children:
+                                                  - type: primaryExpression
+                                                    children:
+                                                    - type: literal
+                                                      children:
+                                                      - '"Input a string: "'
+                - ;
+            - type: statement
+              children:
+              - type: expressionStatement
+                children:
+                - type: expression
+                  children:
+                  - type: assignmentExpression
+                    children:
+                    - type: conditionalExpression
+                      children:
+                      - type: logicalOrExpression
+                        children:
+                        - type: logicalAndExpression
+                          children:
+                          - type: inclusiveOrExpression
+                            children:
+                            - type: exclusiveOrExpression
+                              children:
+                              - type: andExpression
+                                children:
+                                - type: equalityExpression
+                                  children:
+                                  - type: relationalExpression
+                                    children:
+                                    - type: shiftExpression
+                                      children:
+                                      - type: additiveExpression
+                                        children:
+                                        - type: multiplicativeExpression
+                                          children:
+                                          - type: pointerMemberExpression
+                                            children:
+                                            - type: castExpression
+                                              children:
+                                              - type: unaryExpression
+                                                children:
+                                                - type: postfixExpression
+                                                  children:
+                                                  - type: primaryExpression
+                                                    children:
+                                                    - type: idExpression
+                                                      children:
+                                                      - type: qualifiedId
+                                                        children:
+                                                        - type: nestedNameSpecifier
+                                                          children:
+                                                          - type: theTypeName
+                                                            children:
+                                                            - type: className
+                                                              children:
+                                                              - std
+                                                          - '::'
+                                                        - type: unqualifiedId
+                                                          children:
+                                                          - cin
+                                      - type: shiftOperator
+                                        children:
+                                        - '>'
+                                        - '>'
+                                      - type: additiveExpression
+                                        children:
+                                        - type: multiplicativeExpression
+                                          children:
+                                          - type: pointerMemberExpression
+                                            children:
+                                            - type: castExpression
+                                              children:
+                                              - type: unaryExpression
+                                                children:
+                                                - type: postfixExpression
+                                                  children:
+                                                  - type: primaryExpression
+                                                    children:
+                                                    - type: idExpression
+                                                      children:
+                                                      - type: unqualifiedId
+                                                        children:
+                                                        - s
+                - ;
+            - type: statement
+              children:
+              - type: selectionStatement
+                children:
+                - if
+                - (
+                - type: condition
+                  children:
+                  - type: expression
+                    children:
+                    - type: assignmentExpression
+                      children:
+                      - type: conditionalExpression
+                        children:
+                        - type: logicalOrExpression
+                          children:
+                          - type: logicalAndExpression
+                            children:
+                            - type: inclusiveOrExpression
+                              children:
+                              - type: exclusiveOrExpression
+                                children:
+                                - type: andExpression
+                                  children:
+                                  - type: equalityExpression
+                                    children:
+                                    - type: relationalExpression
+                                      children:
+                                      - type: shiftExpression
+                                        children:
+                                        - type: additiveExpression
+                                          children:
+                                          - type: multiplicativeExpression
+                                            children:
+                                            - type: pointerMemberExpression
+                                              children:
+                                              - type: castExpression
+                                                children:
+                                                - type: unaryExpression
+                                                  children:
+                                                  - type: postfixExpression
+                                                    children:
+                                                    - type: postfixExpression
+                                                      children:
+                                                      - type: primaryExpression
+                                                        children:
+                                                        - type: idExpression
+                                                          children:
+                                                          - type: unqualifiedId
+                                                            children:
+                                                            - isPalindrome
+                                                    - (
+                                                    - type: expressionList
+                                                      children:
+                                                      - type: initializerList
+                                                        children:
+                                                        - type: initializerClause
+                                                          children:
+                                                          - type: assignmentExpression
+                                                            children:
+                                                            - type: conditionalExpression
+                                                              children:
+                                                              - type: logicalOrExpression
+                                                                children:
+                                                                - type: logicalAndExpression
+                                                                  children:
+                                                                  - type: inclusiveOrExpression
+                                                                    children:
+                                                                    - type: exclusiveOrExpression
+                                                                      children:
+                                                                      - type: andExpression
+                                                                        children:
+                                                                        - type: equalityExpression
+                                                                          children:
+                                                                          - type: relationalExpression
+                                                                            children:
+                                                                            - type: shiftExpression
+                                                                              children:
+                                                                              - type: additiveExpression
+                                                                                children:
+                                                                                - type: multiplicativeExpression
+                                                                                  children:
+                                                                                  - type: pointerMemberExpression
+                                                                                    children:
+                                                                                    - type: castExpression
+                                                                                      children:
+                                                                                      - type: unaryExpression
+                                                                                        children:
+                                                                                        - type: postfixExpression
+                                                                                          children:
+                                                                                          - type: primaryExpression
+                                                                                            children:
+                                                                                            - type: idExpression
+                                                                                              children:
+                                                                                              - type: unqualifiedId
+                                                                                                children:
+                                                                                                - s
+                                                    - )
+                - )
+                - type: statement
+                  children:
+                  - type: compoundStatement
+                    children:
+                    - '{'
+                    - type: statementSeq
+                      children:
+                      - type: statement
+                        children:
+                        - type: expressionStatement
+                          children:
+                          - type: expression
+                            children:
+                            - type: assignmentExpression
+                              children:
+                              - type: conditionalExpression
+                                children:
+                                - type: logicalOrExpression
+                                  children:
+                                  - type: logicalAndExpression
+                                    children:
+                                    - type: inclusiveOrExpression
+                                      children:
+                                      - type: exclusiveOrExpression
+                                        children:
+                                        - type: andExpression
+                                          children:
+                                          - type: equalityExpression
+                                            children:
+                                            - type: relationalExpression
+                                              children:
+                                              - type: shiftExpression
+                                                children:
+                                                - type: additiveExpression
+                                                  children:
+                                                  - type: multiplicativeExpression
+                                                    children:
+                                                    - type: pointerMemberExpression
+                                                      children:
+                                                      - type: castExpression
+                                                        children:
+                                                        - type: unaryExpression
+                                                          children:
+                                                          - type: postfixExpression
+                                                            children:
+                                                            - type: primaryExpression
+                                                              children:
+                                                              - type: idExpression
+                                                                children:
+                                                                - type: qualifiedId
+                                                                  children:
+                                                                  - type: nestedNameSpecifier
+                                                                    children:
+                                                                    - type: theTypeName
+                                                                      children:
+                                                                      - type: className
+                                                                        children:
+                                                                        - std
+                                                                    - '::'
+                                                                  - type: unqualifiedId
+                                                                    children:
+                                                                    - cout
+                                                - type: shiftOperator
+                                                  children:
+                                                  - <
+                                                  - <
+                                                - type: additiveExpression
+                                                  children:
+                                                  - type: multiplicativeExpression
+                                                    children:
+                                                    - type: pointerMemberExpression
+                                                      children:
+                                                      - type: castExpression
+                                                        children:
+                                                        - type: unaryExpression
+                                                          children:
+                                                          - type: postfixExpression
+                                                            children:
+                                                            - type: primaryExpression
+                                                              children:
+                                                              - type: literal
+                                                                children:
+                                                                - '"True"'
+                                                - type: shiftOperator
+                                                  children:
+                                                  - <
+                                                  - <
+                                                - type: additiveExpression
+                                                  children:
+                                                  - type: multiplicativeExpression
+                                                    children:
+                                                    - type: pointerMemberExpression
+                                                      children:
+                                                      - type: castExpression
+                                                        children:
+                                                        - type: unaryExpression
+                                                          children:
+                                                          - type: postfixExpression
+                                                            children:
+                                                            - type: primaryExpression
+                                                              children:
+                                                              - type: idExpression
+                                                                children:
+                                                                - type: qualifiedId
+                                                                  children:
+                                                                  - type: nestedNameSpecifier
+                                                                    children:
+                                                                    - type: theTypeName
+                                                                      children:
+                                                                      - type: className
+                                                                        children:
+                                                                        - std
+                                                                    - '::'
+                                                                  - type: unqualifiedId
+                                                                    children:
+                                                                    - endl
+                          - ;
+                    - '}'
+                - else
+                - type: statement
+                  children:
+                  - type: compoundStatement
+                    children:
+                    - '{'
+                    - type: statementSeq
+                      children:
+                      - type: statement
+                        children:
+                        - type: expressionStatement
+                          children:
+                          - type: expression
+                            children:
+                            - type: assignmentExpression
+                              children:
+                              - type: conditionalExpression
+                                children:
+                                - type: logicalOrExpression
+                                  children:
+                                  - type: logicalAndExpression
+                                    children:
+                                    - type: inclusiveOrExpression
+                                      children:
+                                      - type: exclusiveOrExpression
+                                        children:
+                                        - type: andExpression
+                                          children:
+                                          - type: equalityExpression
+                                            children:
+                                            - type: relationalExpression
+                                              children:
+                                              - type: shiftExpression
+                                                children:
+                                                - type: additiveExpression
+                                                  children:
+                                                  - type: multiplicativeExpression
+                                                    children:
+                                                    - type: pointerMemberExpression
+                                                      children:
+                                                      - type: castExpression
+                                                        children:
+                                                        - type: unaryExpression
+                                                          children:
+                                                          - type: postfixExpression
+                                                            children:
+                                                            - type: primaryExpression
+                                                              children:
+                                                              - type: idExpression
+                                                                children:
+                                                                - type: qualifiedId
+                                                                  children:
+                                                                  - type: nestedNameSpecifier
+                                                                    children:
+                                                                    - type: theTypeName
+                                                                      children:
+                                                                      - type: className
+                                                                        children:
+                                                                        - std
+                                                                    - '::'
+                                                                  - type: unqualifiedId
+                                                                    children:
+                                                                    - cout
+                                                - type: shiftOperator
+                                                  children:
+                                                  - <
+                                                  - <
+                                                - type: additiveExpression
+                                                  children:
+                                                  - type: multiplicativeExpression
+                                                    children:
+                                                    - type: pointerMemberExpression
+                                                      children:
+                                                      - type: castExpression
+                                                        children:
+                                                        - type: unaryExpression
+                                                          children:
+                                                          - type: postfixExpression
+                                                            children:
+                                                            - type: primaryExpression
+                                                              children:
+                                                              - type: literal
+                                                                children:
+                                                                - '"False"'
+                                                - type: shiftOperator
+                                                  children:
+                                                  - <
+                                                  - <
+                                                - type: additiveExpression
+                                                  children:
+                                                  - type: multiplicativeExpression
+                                                    children:
+                                                    - type: pointerMemberExpression
+                                                      children:
+                                                      - type: castExpression
+                                                        children:
+                                                        - type: unaryExpression
+                                                          children:
+                                                          - type: postfixExpression
+                                                            children:
+                                                            - type: primaryExpression
+                                                              children:
+                                                              - type: idExpression
+                                                                children:
+                                                                - type: qualifiedId
+                                                                  children:
+                                                                  - type: nestedNameSpecifier
+                                                                    children:
+                                                                    - type: theTypeName
+                                                                      children:
+                                                                      - type: className
+                                                                        children:
+                                                                        - std
+                                                                    - '::'
+                                                                  - type: unqualifiedId
+                                                                    children:
+                                                                    - endl
+                          - ;
+                    - '}'
+            - type: statement
+              children:
+              - type: jumpStatement
+                children:
+                - return
+                - type: expression
+                  children:
+                  - type: assignmentExpression
+                    children:
+                    - type: conditionalExpression
+                      children:
+                      - type: logicalOrExpression
+                        children:
+                        - type: logicalAndExpression
+                          children:
+                          - type: inclusiveOrExpression
+                            children:
+                            - type: exclusiveOrExpression
+                              children:
+                              - type: andExpression
+                                children:
+                                - type: equalityExpression
+                                  children:
+                                  - type: relationalExpression
+                                    children:
+                                    - type: shiftExpression
+                                      children:
+                                      - type: additiveExpression
+                                        children:
+                                        - type: multiplicativeExpression
+                                          children:
+                                          - type: pointerMemberExpression
+                                            children:
+                                            - type: castExpression
+                                              children:
+                                              - type: unaryExpression
+                                                children:
+                                                - type: postfixExpression
+                                                  children:
+                                                  - type: primaryExpression
+                                                    children:
+                                                    - type: literal
+                                                      children:
+                                                      - '0'
+                - ;
+          - '}'
+- <EOF>
