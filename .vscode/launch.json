@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/cpp2py_compiler",
-      "program": "d:/cpp2py_compiler/build/Debug/outDebug",
+      "cwd": "d:/cpp2py_compiler/test",
+      "program": "d:/cpp2py_compiler/test/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
